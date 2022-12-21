@@ -4,7 +4,7 @@ import pytest
 
 link = 'http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/.'
 
-def test_existence_of_add_button(browser):
+def test_existence_of_add_to_cart_button(browser):
     browser.get(link)
     #time.sleep(20) #для наглядной проверки убрать "#" с импорта и команды
     browser.implicitly_wait(15)
